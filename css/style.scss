@@ -1,0 +1,51 @@
+@import 'bootstrap';
+
+.container{
+    padding: 0;
+}
+
+header{
+    clear: both;
+}
+
+nav.navbar{
+    max-width: 858px;
+    margin: 100px auto 0 auto;
+    z-index: 999;
+}
+
+#carousel-header{
+    z-index: 1;
+    position: absolute;
+    top: 125px;
+    margin-left: 10;
+}
+
+.leaderboard{
+    width: 728px;
+    height: 90px;
+    background-color: #ccc;
+    margin: 20px auto;
+}
+
+#main-container{
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,.1);
+    padding-bottom: 100px;
+}
+
+#main-content{
+    max-width: 945px;
+    margin: 320px auto 0 auto;
+    border: 1px solid magenta;
+    z-index: -1;
+    .row{
+        width: 100%;
+    }
+    .col-md-3{
+        border: 1px solid #000;
+    }
+}
