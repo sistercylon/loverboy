@@ -23,7 +23,7 @@
       &:hover,
       &:focus {
         text-decoration: none;
-        background-color: $nav-link-hover-bg;
+        background-color: #fff;
       }
     }
 
@@ -46,7 +46,7 @@
     &,
     &:hover,
     &:focus {
-      background-color: $nav-link-hover-bg;
+      background-color: #fff;
       border-color: $link-color;
     }
   }
@@ -144,7 +144,7 @@
   > li {
     float: none;
     + li {
-      margin-top: 2px;
+      margin-top: 0;
       margin-left: 0; // no need for this gap between nav items
     }
   }
