@@ -6120,7 +6120,8 @@ footer {
   nav .navbar-brand img {
     width: 65px;
     height: auto;
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-top: 0; }
 
   nav.navbar ul li.dropdown.open ul.dropdown-menu {
     border: 1px solid #000; }
