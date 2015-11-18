@@ -4,8 +4,12 @@
     box-shadow: none !important;
 }
 
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
 .dropdown-menu{
-    margin: 0;
+    margin: 0 0 0 -2px;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -24,9 +28,14 @@ input, button{
     background-color: #fff;
 }
 
-input[type=submit]:hover{
+input[type=submit]{
     color: #fff;
     background-color: #000;
+}
+
+input[type=submit]:hover{
+    color: #000;
+    background-color: #fff;
 }
 
 label{
@@ -157,24 +166,99 @@ nav.navbar{
             }
     ul li:last-child{
         border-right: 0;}
+    ul .dropdown-menu li:last-child{
+        border-right: 1px solid #000;
+    }
 }
 
 nav.navbar .navbar-default .navbar-fixed-top{
     margin-top: 0;
 }
 
-nav.navbar ul .nav .nav-pills .nav-justified li.dropdown.open ul.dropdown-menu > li{
-     .exclusive a:link,  .exclusive a:visited {
-      background-color: transparent !important;
-      border-bottom: 5px solid $cat-color-exclusive !important;
-      }
-      .exclusive a:hover {
-       background-color: $cat-color-exclusive !important;
-       }
-       .exclusive a:active, .exclusive a:focus  {
-       background-color: transparent !important;
-       border-bottom: 5px solid $cat-color-exclusive !important; 
-       }
+.dropdown-menu{
+    padding: 0;
+}
+
+.dropdown-menu > li{
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.dropdown-menu > li {
+    a{
+        padding-top: 8px;
+    }
+    
+    > a.exclusive:link, > a.exclusive:visited{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-exclusive !important;
+    }
+    > a.exclusive:hover{
+    background-color: $cat-color-exclusive !important;
+    border-bottom: 5px solid $cat-color-exclusive !important;
+    color: #fff !important;
+    }
+    > a.exclusive:active, > a.exclusive:focus{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-exclusive !important; 
+    }
+
+    > a.introducing:link, > a.introducing:visited{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-introducing !important;
+    }
+    > a.introducing:hover{
+    background-color: $cat-color-introducing !important;
+    border-bottom: 5px solid $cat-color-introducing !important;
+    color: #fff !important;
+    }
+    > a.introducing:active, > a.introducing:focus{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-introducing !important; 
+    }
+
+    > a.loveis:link, > a.loveis:visited{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-loveis !important;
+    }
+    > a.loveis:hover{
+    background-color: $cat-color-loveis !important;
+    border-bottom: 5px solid $cat-color-loveis !important;
+    color: #fff !important;
+    }
+    > a.introducing:active, > a.loveis:focus{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-loveis !important; 
+    }
+
+    > a.welove:link, > a.welove:visited{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-welove !important;
+    }
+    > a.welove:hover{
+    background-color: $cat-color-welove !important;
+    border-bottom: 5px solid $cat-color-welove !important;
+    color: #fff !important;
+    }
+    > a.welove:active, > a.welove:focus{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-welove !important; 
+    }
+    
+    > a.nightlife:link, > a.nightlife:visited{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-nightlife !important;
+    }
+    > a.nightlife:hover{
+    background-color: $cat-color-nightlife !important;
+    border-bottom: 5px solid $cat-color-nightlife !important;
+    color: #fff !important;
+    }
+    > a.nightlife:active, > a.loveis:focus{
+    background-color: transparent;
+    border-bottom: 5px solid $cat-color-nightlife !important; 
+    }
 }
 
 .navbar-toggle{
@@ -192,12 +276,7 @@ nav .navbar-brand{
     }
 }
 
-#carousel-header{
-    z-index: 1;
-    position: absolute;
-    top: 125px;
-    margin-left: 10;
-}
+
 
 .leaderboard{
     width: 728px;
@@ -309,6 +388,7 @@ nav .navbar-brand{
         margin: 0;
         height: 34px;
         padding-top: 8px;
+        text-transform: initial;
     }
     a .buynow{
         border: 1px solid #000;
@@ -331,7 +411,7 @@ nav .navbar-brand{
         text-transform: uppercase;
         font-weight: bold;
     }
-}  
+} 
 
 aside{
     h4{
@@ -402,10 +482,11 @@ footer{
         }
 }
 
-@media (max-width: 768px){
+@media (max-width: $screen-md){
 
     nav.navbar{
         margin-top: 0;
+        border: none;
     }
     #pre-nav{
         display: none;
@@ -420,17 +501,29 @@ footer{
 
 nav.navbar ul li.dropdown.open ul.dropdown-menu{
         border: 1px solid #000;
-                li, li:hover{
+                li{
                     border-top: none;
                     border-right: none;
                     border-bottom: 1px solid #000;
                     border-left: none;
                     background-color: transparent;
-                   a:link, a:visited, a:hover, a:active, a:focus{
-                    padding-top: 7px;
+                    a:link, a:visited, a:hover, a:active, a:focus{
+                        padding-top: 7px;
                        background-color: transparent;
+                    } 
                     }
-            }    
+            li:hover{
+                border-top: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    border-left: none;
+                    background-color: transparent;
+                       a:link, a:visited, a:hover, a:active, a:focus{
+                        padding-top: 7px;
+                       background-color: transparent;
+                    }  
+                }    
+                   
 }
     
     footer {
@@ -444,4 +537,229 @@ nav.navbar ul li.dropdown.open ul.dropdown-menu{
         clear: both;
         }
     }
+}
+
+/* AJ CAROUSEL STYLES */
+
+#carousel-header{
+    z-index: 1;
+    position: absolute;
+    top: 125px;
+    margin-left: 10;
+}
+
+.carousel-control{
+    .glyphicon-chevron-left{
+        margin-top: 35px;
+        color: #bcbcbc;
+        opacity: 100%;
+        -webkit-opacity: 100%;
+        -moz-opacity: 100%;
+        -o-opacity: 100%;
+        text-shadow: none;
+        
+    }
+    .glyphicon-chevron-right{
+        margin-top: 35px;   
+        color: #bcbcbc;
+        opacity: 100%;
+        -webkit-opacity: 100%;
+        -moz-opacity: 100%;
+        -o-opacity: 100%;
+        text-shadow: none;
+    }
+}
+
+ol.carousel-indicators{
+    width: auto;
+    padding: 8px 15px 15px 15px;
+    border-radius: 15px 15px 0 0;
+    background-color: #fff;
+    margin: 0 auto -35px auto;
+    margin-left: -50px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    width:  10px;
+    height: 10px;
+    margin: 0 5px;
+    text-indent: -999px;
+    background-color: #bcbcbc;
+    border-radius: 10px;
+    border: 1px solid $carousel-indicator-border-color;
+    cursor: pointer;
+
+    // IE8-9 hack for event handling
+    //
+    // Internet Explorer 8-9 does not support clicks on elements without a set
+    // `background-color`. We cannot use `filter` since that's not viewed as a
+    // background color by the browser. Thus, a hack is needed.
+    // See https://developer.mozilla.org/en-US/docs/Web/Events/click#Internet_Explorer
+    //
+    // For IE8, we set solid black as it doesn't support `rgba()`. For IE9, we
+    // set alpha transparency for the best results possible.
+    background-color: #bcbcbc \9; // IE8
+    background-color: #bcbcbc; // IE9
+  }
+  .active {
+    margin: 0 5px;
+    width:  10px;
+    height: 10px;
+    background-color: $carousel-indicator-active-bg;
+    border: 1px solid #000;
+  }
+}
+
+
+
+#main-container .carousel-caption{
+    h2{
+        font-size: 30px;
+        margin: 0;
+    }
+    h4{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: normal;
+        margin-top: -1px;
+    }
+}
+
+// Optional captions
+// -----------------------------
+// Hidden by default for smaller viewports
+.carousel-caption {
+  position: absolute;
+  width: 350px;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  z-index: 10;
+  padding: 10px 40px 0 40px;
+  margin-left: 40px;
+  color: $carousel-caption-color;
+  text-align: left;
+  text-shadow: $carousel-text-shadow;
+  & .btn {
+    text-shadow: none; // No shadow for button elements in carousel-caption
+  }
+    
+}
+@media screen and (max-width: $screen-md)  {
+    #main-content{
+        margin-top: 370px;
+        h2{
+            margin-left: 10px;
+        }
+    }
+    #home-bottom-content{
+        margin-bottom: 0;
+    }
+    
+    .carousel-inner{
+        overflow: visible;
+    }
+    
+    #carousel-header{
+        max-width: 720px;
+        margin-top: -80px;
+        overflow: visible;
+        img{
+            max-width: 720px;
+        }
+        .carousel-caption{
+            margin-left: 0;
+            max-width: 100%;
+            padding: 0px 10px 0 10px;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0px 4px 4px 1px rgba(0,0,0,.1) !important;
+            display: block;
+            left: auto;
+            right: auto;
+            bottom: -105px;
+        }
+    }
+    nav ul li{
+        border: none !important;
+    }
+    .dropdown-menu{
+        li{
+            display: inline-block;
+            Width: 100%;
+            clear: both;
+            text-align: center;
+            padding-left: 0;
+            padding-right: 0;
+            border: none !important;
+        }
+        
+    }
+    #home-bottom-content{
+        .buynow{
+            margin: 0 10px;
+        }
+    }
+    #interview_widget{
+        display: none;
+    }
+    footer{
+        padding: 0;
+    }
+    
+}
+
+// Scale up controls for tablets and up
+@media screen and (max-width: $screen-sm-min) {
+
+  // Scale up the controls a smidge
+    #carousel-header{
+        max-width: 100%;
+        img{
+            max-width: 100%;
+        }
+    }
+    .carousel-control {
+    .glyphicon-chevron-left,
+    .glyphicon-chevron-right,
+    .icon-prev,
+    .icon-next {
+      width: 30px;
+      height: 30px;
+      margin-top: -15px;
+      font-size: 30px;
+    }
+    .glyphicon-chevron-left,
+    .icon-prev {
+      margin-left: -15px;
+    }
+    .glyphicon-chevron-right,
+    .icon-next {
+      margin-right: -15px;
+    }
+  }
+
+  // Show and left align the captions
+  .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+
+  // Move up the indicators
+  .carousel-indicators {
+    bottom: 20px;
+  }
 }

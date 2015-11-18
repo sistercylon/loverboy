@@ -355,7 +355,7 @@ $grid-columns:              12 !default;
 $grid-gutter-width:         0 !default;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
-$grid-float-breakpoint:     $screen-sm-min !default;
+$grid-float-breakpoint:     $screen-md !default;
 //** Point at which the navbar begins collapsing.
 $grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
 
@@ -385,7 +385,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    38px !default;
+$navbar-height:                    37px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -401,7 +401,7 @@ $navbar-default-link-color:                #000 !default;
 $navbar-default-link-hover-color:          #000 !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         #000 !default;
-$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-active-bg:            transparent !default;
 $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
@@ -447,16 +447,16 @@ $navbar-inverse-toggle-border-color:        #333 !default;
 //##
 
 //=== Shared nav styles
-$nav-link-padding:                          10px 15px !default;
-$nav-link-hover-bg:                         $gray-lighter !default;
+$nav-link-padding:                          9px 15px 7px 15px !default;
+$nav-link-hover-bg:                         transparent !default;
 
-$nav-disabled-link-color:                   $gray-light !default;
-$nav-disabled-link-hover-color:             $gray-light !default;
+$nav-disabled-link-color:                   transparent !default;
+$nav-disabled-link-hover-color:             transparent !default;
 
 //== Tabs
 $nav-tabs-border-color:                     #ddd !default;
 
-$nav-tabs-link-hover-border-color:          $gray-lighter !default;
+$nav-tabs-link-hover-border-color:          none !default;
 
 $nav-tabs-active-link-hover-bg:             #000 !default;
 $nav-tabs-active-link-hover-color:          #000 !default;
@@ -831,17 +831,14 @@ $breadcrumb-separator:          "/" !default;
 //
 //##
 
-$carousel-text-shadow:                        none !default;
-
+$carousel-text-shadow:                        1px 1px 20px #fff !default;
 $carousel-control-color:                      #fff !default;
 $carousel-control-width:                      15% !default;
-$carousel-control-opacity:                    .5 !default;
+$carousel-control-opacity:                    1 !default;
 $carousel-control-font-size:                  20px !default;
-
 $carousel-indicator-active-bg:                #fff !default;
-$carousel-indicator-border-color:             #fff !default;
-
-$carousel-caption-color:                      #fff !default;
+$carousel-indicator-border-color:             #bcbcbc !default;
+$carousel-caption-color:                      #000 !default;
 
 
 //== Close
@@ -850,7 +847,7 @@ $carousel-caption-color:                      #fff !default;
 
 $close-font-weight:           bold !default;
 $close-color:                 #000 !default;
-$close-text-shadow:           none!default;
+$close-text-shadow:           none !default;
 
 
 //== Code
