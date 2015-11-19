@@ -5828,6 +5828,9 @@ ul, ol, li {
 .container {
   padding: 0; }
 
+header {
+  clear: both; }
+
 #pre-nav {
   width: 100%;
   max-width: 858px;
@@ -6362,7 +6365,7 @@ ol.carousel-indicators {
   #carousel-header {
     max-width: 100%;
     height: 400px;
-    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1) !important; }
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1); }
 
   .carousel-caption {
     background-color: #fff;
@@ -6396,5 +6399,32 @@ ol.carousel-indicators {
 
   .carousel-indicators {
     bottom: 140px; } }
+#oops-wrapper #main-content {
+  margin-top: 0px; }
+  #oops-wrapper #main-content .oops {
+    max-width: 859px;
+    width: 100%;
+    margin: 60px auto;
+    position: relative; }
+    #oops-wrapper #main-content .oops img {
+      max-width: 60%;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      position: relative; }
+    #oops-wrapper #main-content .oops a:link, #oops-wrapper #main-content .oops a:visited {
+      text-decoration: underline;
+      text-decoration-color: #000 !important; }
+    #oops-wrapper #main-content .oops a:hover {
+      text-decoration: underline;
+      text-decoration-color: #ccc !important; }
+    #oops-wrapper #main-content .oops a:active, #oops-wrapper #main-content .oops a:focus {
+      text-decoration: underline;
+      text-decoration-color: #000 !important; }
+    #oops-wrapper #main-content .oops h2 {
+      margin-bottom: 1.75em; }
+    #oops-wrapper #main-content .oops p {
+      margin-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */
