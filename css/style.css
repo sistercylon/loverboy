@@ -5828,9 +5828,6 @@ ul, ol, li {
 .container {
   padding: 0; }
 
-header {
-  clear: both; }
-
 #pre-nav {
   width: 100%;
   max-width: 858px;
@@ -6138,7 +6135,7 @@ footer {
     text-align: center;
     padding: 12px; }
   footer .row {
-    background-color: #2c2c2c;
+    background-color: #000;
     color: #fff; }
     footer .row a {
       color: #fff; }
@@ -6203,7 +6200,14 @@ footer {
   z-index: 1;
   position: absolute;
   top: 125px;
-  margin-left: 10; }
+  margin-left: 10;
+  transform-style: flat;
+  -webkit-transform-style: flat;
+  -moz-transform-style: flat; }
+  #carousel-header img, #carousel-header img .active {
+    min-width: 100%;
+    width: 100%;
+    height: auto; }
 
 .carousel-control .glyphicon-chevron-left {
   margin-top: 35px;
@@ -6232,7 +6236,7 @@ ol.carousel-indicators {
 
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   left: 50%;
   z-index: 15;
   width: 100%;
@@ -6298,20 +6302,14 @@ ol.carousel-indicators {
   #carousel-header {
     max-width: 720px;
     margin-top: -80px;
-    overflow: visible; }
+    overflow: hidden; }
     #carousel-header img {
       max-width: 720px; }
     #carousel-header .carousel-caption {
       margin-left: 0;
       max-width: 100%;
       padding: 0px 10px 0 10px;
-      width: 100%;
-      background-color: #fff;
-      box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1) !important;
-      display: block;
-      left: auto;
-      right: auto;
-      bottom: -105px; }
+      width: 100%; }
 
   nav ul li {
     border: none !important; }
@@ -6334,10 +6332,17 @@ ol.carousel-indicators {
   footer {
     padding: 0; } }
 @media screen and (max-width: 768px) {
+  #main-content {
+    padding-top: 100px; }
+
   #carousel-header {
     max-width: 100%; }
     #carousel-header img {
-      max-width: 100%; }
+      max-width: 100%;
+      max-height: 346px;
+      transform-style: flat;
+      -webkit-transform-style: flat;
+      -moz-transform-style: flat; }
 
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -6354,12 +6359,42 @@ ol.carousel-indicators {
   .carousel-control .icon-next {
     margin-right: -15px; }
 
+  #carousel-header {
+    max-width: 100%;
+    height: 400px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1) !important; }
+
   .carousel-caption {
-    left: 20%;
-    right: 20%;
-    padding-bottom: 30px; }
+    background-color: #fff;
+    display: block;
+    left: auto;
+    right: auto;
+    padding-bottom: 30px;
+    top: 335px; }
 
   .carousel-indicators {
-    bottom: 20px; } }
+    bottom: 115px; } }
+@media (max-width: 480px) {
+  #main-content {
+    margin-top: 245px; }
+
+  #carousel-header {
+    max-width: 100%;
+    height: 295px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1) !important; }
+    #carousel-header img {
+      max-height: 182px;
+      width: auto; }
+
+  .carousel-caption {
+    background-color: #fff;
+    display: block;
+    left: auto;
+    right: auto;
+    padding-bottom: 30px;
+    top: 200px; }
+
+  .carousel-indicators {
+    bottom: 140px; } }
 
 /*# sourceMappingURL=style.css.map */
