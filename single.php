@@ -279,6 +279,7 @@ Pellentesque ut arcu interdum ex finibus pulvinar nec et lorem. Praesent digniss
 </footer>
     </div><!-- close main container -->
      </div><!-- close archive wrapper -->
+    <script src="js/jquery.fitvids.js"></script>
     <script type="text/javascript">
     $('#carousel-footer').carousel({
   interval: 10000
@@ -330,5 +331,11 @@ function WidthChange(mq) {
         }
 }
     </script>
+    <script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".content").fitVids();
+  });
+</script>
 </body>
 </html>

@@ -6588,6 +6588,8 @@ ol.carousel-indicators {
   #single-wrapper .content iframe {
     margin: 60px auto;
     display: block; }
+  #single-wrapper .content .fluid-width-video-wrapper {
+    margin-bottom: 100px; }
 #single-wrapper #home-bottom-content {
   padding: 5px; }
   #single-wrapper #home-bottom-content .col-md-3 {
