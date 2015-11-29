@@ -5784,6 +5784,30 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(66px);
+    transform: translateY(66px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(66px);
+    -ms-transform: translateY(66px);
+    transform: translateY(66px); }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); } }
+#cookiepolicy {
+  animation-duration: 0.8s;
+  -webkit-animation-duration: 0.8s;
+  -moz-animation-duration: 0.8s;
+  -o-animation-duration: 0.8s;
+  -webkit-animation-name: slideUp;
+  animation-name: slideUp; }
+
 * {
   box-shadow: none !important; }
 
@@ -6474,7 +6498,7 @@ ol.carousel-indicators {
     #youmay .cat-color.introducing {
       background-color: #71c32e; }
 
-#archive-widget .col-md-4, #home-bottom-content .col-md-4:nth-child(2) {
+#archive-widget .col-md-4 {
   height: 250px !important;
   padding-top: 16px !important;
   padding-right: 0 !important;
@@ -6526,6 +6550,8 @@ ol.carousel-indicators {
       background-color: #d41010; }
     #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more.introducing:hover {
       background-color: #71c32e; }
+    #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more.exclusive:hover {
+      background-color: #24a86c; }
     #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:link, #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:visited {
       display: block;
       width: 100%;
@@ -6543,6 +6569,49 @@ ol.carousel-indicators {
     #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:active, #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:focus {
       background-color: transparent;
       border: 1px solid #000; }
+
+/* single post styles */
+#single-wrapper #main-content {
+  margin-top: 20px; }
+#single-wrapper .social-search {
+  margin: 10px -26px 0 0; }
+#single-wrapper #interview_widget {
+  display: none; }
+#single-wrapper nav.navbar {
+  max-width: 890px; }
+#single-wrapper .content {
+  max-width: 895px;
+  margin: 20px auto 30px auto;
+  border-right: none; }
+  #single-wrapper .content p {
+    margin-top: 40px; }
+  #single-wrapper .content iframe {
+    margin: 60px auto;
+    display: block; }
+#single-wrapper #home-bottom-content {
+  padding: 5px; }
+  #single-wrapper #home-bottom-content .col-md-3 {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000; }
+    #single-wrapper #home-bottom-content .col-md-3 .aj_post_intro {
+      padding: 10px; }
+  #single-wrapper #home-bottom-content .col-md-3:last-child {
+    border-right: 1px solid #000; }
+#single-wrapper .featured-img-quote {
+  width: 50%;
+  padding-right: 30px;
+  height: auto;
+  float: left; }
+  #single-wrapper .featured-img-quote img {
+    width: 100%;
+    height: auto; }
+  #single-wrapper .featured-img-quote .pullquote {
+    width: 95%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 28px;
+    font-style: italic;
+    line-height: 38px; }
 
 @media (max-width: 960px) {
   #archive-wrapper #main-content h2 {
@@ -6593,7 +6662,38 @@ ol.carousel-indicators {
       #archive-wrapper #main-content .aj_post .thumbnail_container img {
         width: 100%;
         height: auto;
-        margin-left: 0; } }
+        margin-left: 0; }
+
+  /* single post under 960px */
+  #single-wrapper #main-content {
+    margin-top: 20px; }
+  #single-wrapper nav.navbar {
+    max-width: 890px; }
+  #single-wrapper .content {
+    width: 100%;
+    margin: 20px auto 30px auto;
+    border-right: none; }
+    #single-wrapper .content p {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto; }
+    #single-wrapper .content iframe {
+      width: 100%; }
+  #single-wrapper .featured-img-quote {
+    width: 100%;
+    padding-right: 0;
+    height: auto;
+    float: left; }
+    #single-wrapper .featured-img-quote img {
+      width: 100%;
+      height: auto; }
+    #single-wrapper .featured-img-quote .pullquote {
+      width: 95%;
+      margin-top: 1em;
+      margin-bottom: 2em;
+      font-size: 28px;
+      font-style: italic;
+      line-height: 38px; } }
 /* footer carousel */
 #carousel-footer .carousel-inner {
   width: 100%;
@@ -6614,5 +6714,56 @@ ol.carousel-indicators {
     width: 100px; }
   #carousel-footer .aj_post h3 {
     font-size: 50%; }
+
+#eucookielaw {
+  display: none; }
+
+#cookiepolicy {
+  background-color: #000;
+  padding: 20px 20px 40px 20px;
+  margin-top: -10%;
+  z-index: 999999; }
+  #cookiepolicy p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 10px; }
+    #cookiepolicy p span {
+      font-weight: bold; }
+  #cookiepolicy .col-md-6 p {
+    text-align: center; }
+    #cookiepolicy .col-md-6 p a {
+      color: #fff;
+      text-decoration: underline;
+      -webkit-text-decoration-color: #ccc;
+      -moz-text-decoration-color: #ccc;
+      -o-text-decoration-color: #ccc; }
+    #cookiepolicy .col-md-6 p a#removecookie:link, #cookiepolicy .col-md-6 p a#more:link {
+      color: #fff !important;
+      text-decoration: underline;
+      text-decoration-color: #ccc;
+      -webkit-text-decoration-color: #ccc;
+      -moz-text-decoration-color: #ccc;
+      -o-text-decoration-color: #ccc; }
+    #cookiepolicy .col-md-6 p a#removecookie:visited, #cookiepolicy .col-md-6 p a#more:visited {
+      color: #ccc;
+      text-decoration: underline;
+      text-decoration-color: #ccc;
+      -webkit-text-decoration-color: #ccc;
+      -moz-text-decoration-color: #ccc;
+      -o-text-decoration-color: #ccc; }
+    #cookiepolicy .col-md-6 p a#removecookie:hover, #cookiepolicy .col-md-6 p a#more:hover {
+      color: #ccc;
+      text-decoration: underline;
+      text-decoration-color: #fff;
+      -webkit-text-decoration-color: #fff;
+      -moz-text-decoration-color: #fff;
+      -o-text-decoration-color: #fff; }
+    #cookiepolicy .col-md-6 p a#removecookie:active, #cookiepolicy .col-md-6 p a#removecookie:focus, #cookiepolicy .col-md-6 p a#more:active, #cookiepolicy .col-md-6 p a#more:focus {
+      color: #fff;
+      text-decoration: underline;
+      text-decoration-color: #fff;
+      -webkit-text-decoration-color: #fff;
+      -moz-text-decoration-color: #fff;
+      -o-text-decoration-color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

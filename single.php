@@ -15,6 +15,7 @@
     </head>
 <body>
 
+       <div id="single-wrapper">
        <div id="main-container" class="container">
 <header>
        <div class="ad">
@@ -62,8 +63,8 @@
               <ul class="dropdown-menu">
                 <li class="exclusive"><a class="exclusive" href="#" >Exclusives</a></li>
                   <li class="introducing"><a class="introducing" href="#">Introducing</a></li>
-                  <li class="loveis"><a class="loveis" href="#">Love is...</a></li>
-                  <li class="welove"><a class="welove" href="#">We love...</a></li>
+                  <li class="loveis"><a class="loveis" href="#">Love is ...</a></li>
+                  <li class="welove"><a class="welove" href="#">We love ...</a></li>
                   <li class="nightlife"><a class="nightlife" href="#">We love the nightlife</a></li>
               </ul>
         </li>
@@ -83,62 +84,39 @@
       </div><!-- /.container-fluid -->
     </nav>
     
-      
-      
-      <!-- CAROUSEL -->
-      
-    <div id="carousel-header" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-header" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-header" data-slide-to="1"></li>
-    <li data-target="#carousel-header" data-slide-to="2"></li>
-
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/eyes_960x433.jpg" alt="eyes">
-      <div class="carousel-caption">
-        <h2>Exclusive</h2>
-        <h4>Francois Sagat as you have <em>never</em> seen him before</h4>
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/mariah.jpg" alt="mariah carey">
-      <div class="carousel-caption">
-        <h2>Mariah Carey</h2>
-        <h4>Would rather look at pictures of herself</h4>
-      </div>
-  </div>
-    <div class="item">
-      <img src="img/man_960x433.jpg" alt="man">
-      <div class="carousel-caption">
-        <h2>Competition</h2>
-        <h4>Guess my weight</h4>
-      </div>
-    </div>
-
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-header" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-          </div><!--end header carousel-->
    
 </header>
 
 <div id="main-content">
-   <h2>What's New</h2>
-   <div class="content">
-    <div id="whatsnew" class="row">
+  <div class="cat-color welove"></div>
+ <div class="content">
+     <h2>We Love Will Young</h2>
+    <div class="entry">
+    <div class="featured-img-quote"> <img src="img/willyoung.jpg" alt="will young" /><div class="pullquote"><p>&ldquo;Pull quotes from the article go in here to create extra interest in the article and have this much space&rdquo;</p></div></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio est, dictum nec luctus ut, fringilla id ligula. Mauris leo metus, vehicula ut orci sodales, ullamcorper placerat dui. Sed a dictum dui. Proin convallis mollis sem a vehicula. In sed risus volutpat justo viverra placerat ac id ante. Sed id nisi mauris. Nam pretium id nisl non blandit. Ut diam lectus, egestas ultrices ullamcorper sed, accumsan et nunc. Maecenas mattis sapien sapien, quis consequat dui faucibus a. Nam elementum tempus arcu sed facilisis. Proin mollis diam ut felis facilisis varius. Vivamus pharetra rutrum vehicula. Donec ultricies vel urna ac condimentum. Vivamus suscipit vulputate ornare. Praesent faucibus odio ut lacus porta, sed faucibus sapien feugiat. Pellentesque ultrices augue sapien, sed tempus diam commodo nec.</p>
+      <p>
+Pellentesque sit amet auctor nulla. Duis ultrices dictum nisl eget interdum. Vestibulum non mollis sapien. Phasellus lobortis metus cursus, scelerisque nulla ac, sagittis elit. Aliquam erat volutpat. Nulla vulputate varius massa non porttitor. Nam non leo faucibus, tincidunt lectus sit amet, aliquam orci. Nulla facilisi. Proin a massa lobortis sapien molestie fermentum in sit amet leo. Curabitur quis lacus eget velit pretium posuere non nec elit.
+        </p>
+        <p>
+Pellentesque ut arcu interdum ex finibus pulvinar nec et lorem. Praesent dignissim justo eget nunc posuere lobortis. Suspendisse potenti. Aliquam pharetra eros non facilisis condimentum. Maecenas consequat, enim et tempus gravida, ante velit volutpat ex, in mollis ligula metus nec mauris. Sed tempus arcu a purus suscipit, a facilisis magna tincidunt. Curabitur eget elit ultricies, pretium leo et, tristique sapien. Aliquam at arcu magna. Fusce sit amet facilisis lectus. Ut hendrerit sagittis leo, porttitor elementum enim pretium quis. Donec nec vestibulum nulla. Cras et odio id tellus finibus consequat posuere ullamcorper tortor.
+       </p>
+       
+       <iframe width="600" height="371" src="https://www.youtube.com/embed/yvzdfcrchSQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+       
+       <p>
+Pellentesque ut arcu interdum ex finibus pulvinar nec et lorem. Praesent dignissim justo eget nunc posuere lobortis. Suspendisse potenti. Aliquam pharetra eros non facilisis condimentum. Maecenas consequat, enim et tempus gravida, ante velit volutpat ex, in mollis ligula metus nec mauris. Sed tempus arcu a purus suscipit, a facilisis magna tincidunt. Curabitur eget elit ultricies, pretium leo et, tristique sapien. Aliquam at arcu magna. Fusce sit amet facilisis lectus. Ut hendrerit sagittis leo, porttitor elementum enim pretium quis. Donec nec vestibulum nulla. Cras et odio id tellus finibus consequat posuere ullamcorper tortor.
+       </p>
+        </div><!-- close entry -->
+
+        
+        
+    
+    
+    </div><!-- close content-->
+    </div><!-- close main content-->
+<div id="home-bottom-content" class="row">
+   <div id="youmay" class="row">
+     <h2>You May Also Like...</h2>
+      <div class="hidden-md hidden-sm hidden-xs">
       <div class="col-md-3">
       <div class="aj_post">
       <img src="img/cassandro.jpg" alt="..."/>
@@ -154,7 +132,7 @@
        <div class="aj_post">
        <img src="img/willyoung.jpg" alt="..."/>
         
-         <div class="cat-color welove"></div>
+         <div class="cat-color exclusive"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love...</span></p>
                   <h3>Will Young</h3>
@@ -184,151 +162,85 @@
               </div>
             </div>
         </div>
-        
-        <!-- extra two mobile categories -->
-        
-         <div class="col-md-3 hidden-lg hidden-xl">
+       </div><!--end hidden-sm -->
+        </div>
+         <!-- CAROUSEL -->
+      
+    <div id="carousel-footer" class="carousel slide visible-md visible-sm visible-xs" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/gysheiman.jpg" alt="..."/>
-       <div class="cat-color introducing"></div>
-                <div class="aj_post_intro">
-                  <p><span class="cat">Introducing...</span></p>
-                  <h3>Guy Scheiman</h3>
-                  <a href="#">Read More ></a>
-              </div>
-            </div>
-        </div>   
-      <div class="col-md-3 hidden-lg hidden-xl">
-      <div class="aj_post">
-      <img src="img/dolly.jpg" alt="..."/>
-       <div class="cat-color competition"></div>
-                <div class="aj_post_intro">
-                  <p><span class="cat">Competition</span></p>
-                  <h3>Win: The Royals Season 1</h3>
+      <img src="img/cassandro.jpg" alt="..."/>
+       <div class="cat-color exclusive"></div>
+                  <div class="aj_post_intro">
+                  <p><span class="cat">Exclusive</span></p>
+                  <h3>Cassandro</h3>
                   <a href="#">Read More ></a>
               </div>
             </div>
         </div>
-        
-        
-    </div>
-    
-    <!-- LATEST -->
-    
-    <div id="latest" class="row hidden-sm hidden-xs">
-      <div class="col-md-4">
-      <div class="aj_post">
-      <img src="img/missfame.jpg" alt="..."/>
-      <div class="cat-color welove"></div>
+      </div>
+    <div class="item">
+      <div class="col-md-3">
+       <div class="aj_post">
+       <img src="img/willyoung.jpg" alt="..."/>
+         <div class="cat-color exclusive"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love...</span></p>
-                  <h3>Miss Fame</h3>
+                  <h3>Will Young</h3>
                   <a href="#">Read More ></a>
               </div>
             </div>
         </div>
-      <div class="col-md-4">
+  </div>
+    <div class="item">
+ <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/dinadelicious.jpg" alt="..."/>
-      <div class="cat-color welove"></div>
+      <img src="img/michaellucas.jpg" alt="..."/>
+       <div class="cat-color loveis"></div>
                 <div class="aj_post_intro">
-                  <p><span class="cat">We love...</span></p>
+                  <p><span class="cat">Love is...</span></p>
                   <h3>Michael Lucas</h3>
                   <a href="#">Read More ></a>
               </div>
             </div>
-        </div>
-      <div class="col-md-4">
+        </div>   
+    </div>
+    <div class="item">
+ <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/babybear.jpg" alt="..."/>
-      <div class="cat-color loveis"></div>
-                <div class="aj_post_intro">
-                  <p><span class="cat">Love is...</span></p>
-                  <h3>Baby Bear</h3>
-                  <a href="#">Read More ></a>
-              </div>
-            </div>
-        </div>
-      <div class="col-md-4">
-      <div class="aj_post">
-      <img src="img/lostinla.jpg" alt="..."/>
-      <div class="cat-color welove"></div>
-                <div class="aj_post_intro">
-                  <p><span class="cat">We love...</span></p>
-                  <h3>Elle Exxe</h3>
-                  <a href="#">Read More ></a>
-              </div>
-            </div>
-        </div>
-      <div class="col-md-4">
-      <div class="aj_post">
-      <img src="img/julipaid.jpg" alt="..."/>
-      <div class="cat-color nightlife"></div>
+      <img src="img/wayneshires.jpg" alt="..."/>
+       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love the nightlife...</span></p>
-                  <h3>Julie Paid</h3>
-                  <a href="#">Read More ></a>
-              </div>
-            </div>
-        </div>
-      <div class="col-md-4">
-          <div class="ad">
-              <div class="rectangle300x250">
-              </div>
-        </div>
-          </div>
-      <div class="col-md-4">
-      <div class="aj_post">
-      <img src="img/dolly.jpg" alt="..."/>
-      <div class="cat-color competition"></div>
-                <div class="aj_post_intro">
-                  <p><span class="cat">Competition</span></p>
-                  <h3>Win: The Year Dolly Parton</h3>
-                  <a href="#">Read More ></a>
-              </div>
-            </div>
-        </div>
-      <div class="col-md-4">
-      <div class="aj_post">
-      <img src="img/royals.jpg" alt="..."/>
-      <div class="cat-color competition"></div>
-                <div class="aj_post_intro">
-                  <p><span class="cat">Competition</span></p>
-                  <h3>Win: The Royals Season 1</h3>
-                  <a href="#">Read More ></a>
-              </div>
-            </div>
-        </div>
-      <div class="col-md-4">
-      <div class="aj_post">
-      <img src="img/gysheiman.jpg" alt="..."/>
-      <div class="cat-color introducing"></div>
-                <div class="aj_post_intro">
-                  <p><span class="cat">Introducing...</span></p>
-                  <h3>Guy Sheiman</h3>
+                  <h3>Wayne Shires</h3>
                   <a href="#">Read More ></a>
               </div>
             </div>
         </div>
     </div>
-    </div><!-- close content-->
-    </div><!-- close main content-->
-<div id="home-bottom-content" class="row">
-    <div class="col-md-4">
-        <a href="#"><img class="mag-cover" src="img/loverboy2.jpg" alt="..." /></a>
-        <a href="#"><div class="buynow"><h2>Buy Issue 2 now!</h2></div></a>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-footer" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-footer" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          </div><!--end header carousel-->
+        <div class="row">
+       <div class="col-md-8">
+        <div class="ad">
+              <div class="h-rectangle600x250">
+              </div>
+        </div>
     </div>
-       <div class="col-md-4">
-        <h3>Listen Up, Hookers!</h3>
-        <p>
-        Loverboy magazine is back! Issue 2 is just as sensational as our debut and is bringing it to you even harder than before!
-        </p>
-        <p>
-        With exclusive content from Adore Delano, Janice Dickinson, our EXCLUSIVE shoot with Hercules and Lover Affair's Andy Butler, Nicole Scherzinger, Carmen Electra, Jodie Harsh, Ella Henderson, Steve Cruze and more, Loverboy issue 2 is the one to read.
-        </p>
-        <p>Available now from our shop in physical format and as digital download.</p>
-    </div>
-    <div class="col-md-4">
+    <div id="archive-widget" class="col-md-4">
         <aside>
                <div id="interview_widget">
                 <h4>Read our interviews with</h4>
@@ -366,10 +278,26 @@
     <p>© Copyright 2015 Loverboy Magazine | Developed by <a href="#">adj.Media</a></p>
 </footer>
     </div><!-- close main container -->
-      <script type="text/javascript">
-      $('.carousel').carousel({
-  interval: 8000
+     </div><!-- close archive wrapper -->
+    <script type="text/javascript">
+    $('#carousel-footer').carousel({
+  interval: 10000
 })
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  }
+  else {
+  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
+});
       </script>
       <script>
     // media query event handler
