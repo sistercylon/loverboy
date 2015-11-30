@@ -227,7 +227,7 @@ nav.navbar .navbar-default .navbar-fixed-top{
     border-bottom: 5px solid $cat-color-loveis !important;
     color: #fff !important;
     }
-    > a.introducing:active, > a.loveis:focus{
+    > a.loveis:active, > a.loveis:focus{
     background-color: transparent;
     border-bottom: 5px solid $cat-color-loveis !important; 
     }
@@ -255,7 +255,7 @@ nav.navbar .navbar-default .navbar-fixed-top{
     border-bottom: 5px solid $cat-color-nightlife !important;
     color: #fff !important;
     }
-    > a.nightlife:active, > a.loveis:focus{
+    > a.nightlife:active, > a.nightlife:focus{
     background-color: transparent;
     border-bottom: 5px solid $cat-color-nightlife !important; 
     }

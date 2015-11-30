@@ -5987,7 +5987,7 @@ nav.navbar .navbar-default .navbar-fixed-top {
   background-color: #fcd037 !important;
   border-bottom: 5px solid #fcd037 !important;
   color: #fff !important; }
-.dropdown-menu > li > a.introducing:active, .dropdown-menu > li > a.loveis:focus {
+.dropdown-menu > li > a.loveis:active, .dropdown-menu > li > a.loveis:focus {
   background-color: transparent;
   border-bottom: 5px solid #fcd037 !important; }
 .dropdown-menu > li > a.welove:link, .dropdown-menu > li > a.welove:visited {
@@ -6007,7 +6007,7 @@ nav.navbar .navbar-default .navbar-fixed-top {
   background-color: #5639d4 !important;
   border-bottom: 5px solid #5639d4 !important;
   color: #fff !important; }
-.dropdown-menu > li > a.nightlife:active, .dropdown-menu > li > a.loveis:focus {
+.dropdown-menu > li > a.nightlife:active, .dropdown-menu > li > a.nightlife:focus {
   background-color: transparent;
   border-bottom: 5px solid #5639d4 !important; }
 
