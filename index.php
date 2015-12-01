@@ -180,7 +180,7 @@
     <div id="latest" class="row hidden-sm hidden-xs">
       <div class="col-md-4">
       <div class="aj_post">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       <div class="cat-color welove"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love...</span></p>

@@ -62,7 +62,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -76,7 +76,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -90,7 +90,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -104,7 +104,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -118,7 +118,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -132,7 +132,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -146,7 +146,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -160,7 +160,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -174,7 +174,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -193,7 +193,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -207,7 +207,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
@@ -221,7 +221,7 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <img src="img/missfame.jpg" alt="..."/>
+      <a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a>
       </div>
       <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">

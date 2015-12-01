@@ -15,7 +15,7 @@
     </head>
 <body>
 
-       <div id="archive-wrapper">
+       <div id="archive-competition-wrapper">
        <div id="main-container" class="container">
 <header>
        <div class="ad">
@@ -48,7 +48,7 @@
 </header>
 
 <div id="main-content">
-  <div class="cat-color exclusive"></div>
+  <div class="cat-color competition"></div>
    <h2>Page Title Here (This example is 'we love' - please refer to GUI for other pages) Page Title Here (This example is 'we love' - please refer to GUI for other pages)</h2>
    <div class="page-intro">
    <p>A little write up could go here describing the page and what it is all about. 2 lines maximum. A little write up could go here describing the page and what it is all about. 2 lines maximum. A little write up could go here describing the page and what it is all about. 2 lines maximum.</p>
@@ -62,126 +62,126 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
@@ -193,42 +193,42 @@
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>
       <div class="col-md-4">
       <div class="aj_post">
       <div class="thumbnail_container">
-      <a href="/loverboy/single.php"><a href="/loverboy/single.php"><img src="img/missfame.jpg" alt="..."/></a></a>
+      <a href="/loverboy/single-competition.php"><img src="img/dolly.jpg" alt="..."/></a>
       </div>
-      <div class="cat-color exclusive"></div>
+      <div class="cat-color competition"></div>
                 <div class="aj_post_intro">
                   
                   <h3>Will Young (2 Lines for Long Names)</h3>
                   <p>A little introduction or write up about the article would go in here over about four lines maximum</p>
-                  <a class="archive_more exclusive" href="/loverboy/single.php">More</a>
+                  <a class="archive_more competition" href="/loverboy/single-competition.php">More</a>
               </div>
             </div>
         </div>

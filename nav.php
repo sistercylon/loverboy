@@ -28,8 +28,8 @@
            <li>
               <a href="#">Music</a>
         </li>
-           <li class="dropdown">
-              <a href="#">Competitions</a>
+           <li>
+              <a href="/loverboy/archive-competition.php">Competitions</a>
         </li>
            <li><a href="#">About</a></li>
             

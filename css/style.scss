@@ -804,7 +804,6 @@ ol.carousel-indicators{
             max-height: 182px;
             width: auto;
         }
-    }
       .carousel-caption {
     background-color: #fff;
     display: block;
@@ -816,6 +815,7 @@ ol.carousel-indicators{
     .carousel-indicators{
             bottom: 140px;
         }
+    }
 }
 
 #oops-wrapper #main-content{
@@ -858,7 +858,7 @@ ol.carousel-indicators{
 
 
 
-#archive-wrapper{
+#archive-wrapper, #competition-archive-wrapper{
     .social-search {
     margin: 10px -26px 0 0;
     }
@@ -921,7 +921,7 @@ ol.carousel-indicators{
     padding-left: 0 !important;
 }
 
-#archive-wrapper #main-content{
+#archive-wrapper #main-content, #archive-competition-wrapper #main-content {
     margin-top: 0px;
     > .cat-color{
         max-width: 890px;
@@ -1011,7 +1011,7 @@ ol.carousel-indicators{
 
 /* single post styles */
 
-#single-wrapper{
+#single-wrapper, #competition-single-wrapper{
     #main-content{
     margin-top: 20px;
     }
@@ -1074,7 +1074,7 @@ ol.carousel-indicators{
 
 
 @media (max-width: $screen-md){
-    #archive-wrapper #main-content{
+    #archive-wrapper #main-content, #archive-competition-wrapper #main-content {
     h2{
         max-height: 20px;
         overflow: hidden;
@@ -1144,7 +1144,7 @@ ol.carousel-indicators{
  }
     
     /* single post under 960px */
-    #single-wrapper{
+    #single-wrapper, #competition-single-wrapper{
     #main-content{
     margin-top: 20px;
     }
