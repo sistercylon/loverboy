@@ -249,7 +249,7 @@
        <div class="cat-color exclusive"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">Exclusive</span></p>
-                  <h3>Cassandro</h3>
+                  <a href="/loverboy/single.php"><h3>Cassandro</h3></a>
                   <a href="#">Read More ></a>
               </div>
             </div>
@@ -261,7 +261,7 @@
          <div class="cat-color welove"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love...</span></p>
-                  <h3>Will Young</h3>
+                  <a href="/loverboy/single.php"><h3>Will Young</h3></a>
                   <a href="#">Read More ></a>
               </div>
             </div>
@@ -272,7 +272,7 @@
        <div class="cat-color loveis"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">Love is...</span></p>
-                  <h3>Michael Lucas</h3>
+                  <a href="/loverboy/single.php"><h3>Michael Lucas</h3></a>
                   <a href="#">Read More ></a>
               </div>
             </div>
@@ -283,7 +283,7 @@
        <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love the nightlife...</span></p>
-                  <h3>Wayne Shires</h3>
+                  <a href="/loverboy/single.php"><h3>Wayne Shires</h3></a>
                   <a href="#">Read More ></a>
               </div>
             </div>
@@ -303,7 +303,7 @@
        <div class="cat-color exclusive"></div>
                   <div class="aj_post_intro">
                   <p><span class="cat">Exclusive</span></p>
-                  <h3>Cassandro</h3>
+                  <a href="/loverboy/single.php"><h3>Cassandro</h3></a>
                   <a href="#">Read More ></a>
               </div>
             </div>
@@ -316,7 +316,7 @@
          <div class="cat-color welove"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love...</span></p>
-                  <h3>Will Young</h3>
+                  <a href="/loverboy/single.php"><h3>Will Young</h3></a>
                   <a href="#">Read More ></a>
               </div>
             </div>
@@ -329,7 +329,7 @@
        <div class="cat-color loveis"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">Love is...</span></p>
-                  <h3>Michael Lucas</h3>
+                  <a href="/loverboy/single.php"><h3>Michael Lucas</h3></a>
                   <a href="#">Read More ></a>
               </div>
             </div>
@@ -342,7 +342,7 @@
        <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love the nightlife...</span></p>
-                  <h3>Wayne Shires</h3>
+                  <a href="/loverboy/single.php"><h3>Wayne Shires</h3></a>
                   <a href="#">Read More ></a>
               </div>
             </div>
@@ -392,69 +392,8 @@
         </aside>
     </div>
 </div>
-<footer>
-<div class="row">
-    <div class="footer-links">
-        <div class="footer-nav"><a href="#">Media Kit</a></div>
-        <div class="footer-nav"><a href="#">Credits</a></div>
-        <div class="footer-nav"><a href="#">Contact</a></div>
-        <div class="footer-nav"><a href="#">Advertise</a></div>
-    </div>
-</div>
-    <p>© Copyright 2015 Loverboy Magazine | Developed by <a href="#">adj.Media</a></p>
-</footer>
-    </div><!-- close main container -->
-     </div><!-- close archive wrapper -->
-    <script type="text/javascript">
-    $('#carousel-footer').carousel({
-  interval: 10000
-})
-
-$('.carousel .item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-  
-  if (next.next().length>0) {
-    next.next().children(':first-child').clone().appendTo($(this));
-  }
-  else {
-  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-  }
-});
-      </script>
-      <script>
-    // media query event handler
-if (matchMedia) {
-	var mq = window.matchMedia("(max-width: 768px)");
-	mq.addListener(WidthChange);
-	WidthChange(mq);
-}
-
-// media query change
-function WidthChange(mq) {
-	if (mq.matches) {
-        $('.navbar-default').addClass('navbar-fixed-top');
-        }
-}
-    </script>
-    
-          <script>
-    // media query event handler
-if (matchMedia) {
-	var mq = window.matchMedia("(min-width: 769px)");
-	mq.addListener(WidthChange);
-	WidthChange(mq);
-}
-
-// media query change
-function WidthChange(mq) {
-	if (mq.matches) {
-        $('.navbar-default').removeClass('navbar-fixed-top');
-        }
-}
-    </script>
+<?php include 'bottom-content.php'; ?>
+           </div>
+<?php include 'footer.php'; ?>
 </body>
 </html>

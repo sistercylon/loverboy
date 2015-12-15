@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <meta robots="noindex, nofollow">
-        <title>Loverboy</title>
+        <title>Loverboy | Generic Content</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="https://use.typekit.net/uec5wok.js"></script>
@@ -50,21 +50,17 @@
 <div id="main-content">
   <div class="cat-color welove"></div>
  <div class="content">
-     <h2>We Love Will Young</h2>
+     
     <div class="entry">
-    <div class="featured-img-quote"> <img src="img/willyoung.jpg" alt="will young" /><div class="pullquote"><p>&ldquo;Pull quotes from the article go in here to create extra interest in the article and have this much space&rdquo;</p></div></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio est, dictum nec luctus ut, fringilla id ligula. Mauris leo metus, vehicula ut orci sodales, ullamcorper placerat dui. Sed a dictum dui. Proin convallis mollis sem a vehicula. In sed risus volutpat justo viverra placerat ac id ante. Sed id nisi mauris. Nam pretium id nisl non blandit. Ut diam lectus, egestas ultrices ullamcorper sed, accumsan et nunc. Maecenas mattis sapien sapien, quis consequat dui faucibus a. Nam elementum tempus arcu sed facilisis. Proin mollis diam ut felis facilisis varius. Vivamus pharetra rutrum vehicula. Donec ultricies vel urna ac condimentum. Vivamus suscipit vulputate ornare. Praesent faucibus odio ut lacus porta, sed faucibus sapien feugiat. Pellentesque ultrices augue sapien, sed tempus diam commodo nec.</p>
+    <img src="img/turnbull.png" alt="..." class="alignleft"/><p><h2>About Loverboy</h2>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio est, dictum nec luctus ut, fringilla id ligula. Mauris leo metus, vehicula ut orci sodales, ullamcorper placerat dui. Sed a dictum dui. Proin convallis mollis sem a vehicula. In sed risus volutpat justo viverra placerat ac id ante. Sed id nisi mauris. Nam pretium id nisl non blandit. Ut diam lectus, egestas ultrices ullamcorper sed, accumsan et nunc. Maecenas mattis sapien sapien, quis consequat dui faucibus a. Nam elementum tempus arcu sed facilisis. Proin mollis diam ut felis facilisis varius. Vivamus pharetra rutrum vehicula. Donec ultricies vel urna ac condimentum. Vivamus suscipit vulputate ornare. Praesent faucibus odio ut lacus porta, sed faucibus sapien feugiat. Pellentesque ultrices augue sapien, sed tempus diam commodo nec.</p>
       <p>
 Pellentesque sit amet auctor nulla. Duis ultrices dictum nisl eget interdum. Vestibulum non mollis sapien. Phasellus lobortis metus cursus, scelerisque nulla ac, sagittis elit. Aliquam erat volutpat. Nulla vulputate varius massa non porttitor. Nam non leo faucibus, tincidunt lectus sit amet, aliquam orci. Nulla facilisi. Proin a massa lobortis sapien molestie fermentum in sit amet leo. Curabitur quis lacus eget velit pretium posuere non nec elit.
         </p>
         <p>
 Pellentesque ut arcu interdum ex finibus pulvinar nec et lorem. Praesent dignissim justo eget nunc posuere lobortis. Suspendisse potenti. Aliquam pharetra eros non facilisis condimentum. Maecenas consequat, enim et tempus gravida, ante velit volutpat ex, in mollis ligula metus nec mauris. Sed tempus arcu a purus suscipit, a facilisis magna tincidunt. Curabitur eget elit ultricies, pretium leo et, tristique sapien. Aliquam at arcu magna. Fusce sit amet facilisis lectus. Ut hendrerit sagittis leo, porttitor elementum enim pretium quis. Donec nec vestibulum nulla. Cras et odio id tellus finibus consequat posuere ullamcorper tortor.
        </p>
-       
-       <iframe width="600" height="371" src="https://www.youtube.com/embed/yvzdfcrchSQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-       
-       <p>
-Pellentesque ut arcu interdum ex finibus pulvinar nec et lorem. Praesent dignissim justo eget nunc posuere lobortis. Suspendisse potenti. Aliquam pharetra eros non facilisis condimentum. Maecenas consequat, enim et tempus gravida, ante velit volutpat ex, in mollis ligula metus nec mauris. Sed tempus arcu a purus suscipit, a facilisis magna tincidunt. Curabitur eget elit ultricies, pretium leo et, tristique sapien. Aliquam at arcu magna. Fusce sit amet facilisis lectus. Ut hendrerit sagittis leo, porttitor elementum enim pretium quis. Donec nec vestibulum nulla. Cras et odio id tellus finibus consequat posuere ullamcorper tortor.
-       </p>
+
         </div><!-- close entry -->
 
         
@@ -226,76 +222,8 @@ Pellentesque ut arcu interdum ex finibus pulvinar nec et lorem. Praesent digniss
         </aside>
     </div>
 </div>
-<footer>
-<div class="row">
-    <div class="footer-links">
-        <div class="footer-nav"><a href="#">Media Kit</a></div>
-        <div class="footer-nav"><a href="#">Credits</a></div>
-        <div class="footer-nav"><a href="#">Contact</a></div>
-        <div class="footer-nav"><a href="#">Advertise</a></div>
-    </div>
-</div>
-    <p>© Copyright 2015 Loverboy Magazine | Developed by <a href="#">adj.Media</a></p>
-</footer>
-    </div><!-- close main container -->
-     </div><!-- close archive wrapper -->
-    <script src="js/jquery.fitvids.js"></script>
-    <script type="text/javascript">
-    $('#carousel-footer').carousel({
-  interval: 10000
-})
-
-$('.carousel .item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-  
-  if (next.next().length>0) {
-    next.next().children(':first-child').clone().appendTo($(this));
-  }
-  else {
-  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-  }
-});
-      </script>
-      <script>
-    // media query event handler
-if (matchMedia) {
-	var mq = window.matchMedia("(max-width: 768px)");
-	mq.addListener(WidthChange);
-	WidthChange(mq);
-}
-
-// media query change
-function WidthChange(mq) {
-	if (mq.matches) {
-        $('.navbar-default').addClass('navbar-fixed-top');
-        }
-}
-    </script>
-    
-          <script>
-    // media query event handler
-if (matchMedia) {
-	var mq = window.matchMedia("(min-width: 769px)");
-	mq.addListener(WidthChange);
-	WidthChange(mq);
-}
-
-// media query change
-function WidthChange(mq) {
-	if (mq.matches) {
-        $('.navbar-default').removeClass('navbar-fixed-top');
-        }
-}
-    </script>
-    <script>
-  $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $(".content").fitVids();
-  });
-</script>
+<?php include 'bottom-content.php'; ?>
+           </div>
+<?php include 'footer.php'; ?>
 </body>
 </html>

@@ -4,45 +4,45 @@
       <div class="hidden-md hidden-sm hidden-xs">
       <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/cassandro.jpg" alt="..."/>
+          <a href="/loverboy/single.php"><img src="img/cassandro.jpg" alt="..."/></a>
        <div class="cat-color exclusive"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">Exclusive</span></p>
-                  <h3>Cassandro</h3>
+                  <a href="/loverboy/single.php"><h3>Cassandro</h3></a>
                   <a href="/loverboy/single.php">Read More ></a>
               </div>
             </div>
         </div>
       <div class="col-md-3">
        <div class="aj_post">
-       <img src="img/willyoung.jpg" alt="..."/>
+           <a href="/loverboy/single.php"><img src="img/willyoung.jpg" alt="..."/></a>
         
          <div class="cat-color welove"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love...</span></p>
-                  <h3>Will Young</h3>
+                  <a href="/loverboy/single.php"><h3>Will Young</h3></a>
                   <a href="/loverboy/single.php">Read More ></a>
               </div>
             </div>
         </div>
       <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/michaellucas.jpg" alt="..."/>
+          <a href="/loverboy/single.php"><img src="img/michaellucas.jpg" alt="..."/></a>
        <div class="cat-color loveis"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">Love is...</span></p>
-                  <h3>Michael Lucas</h3>
+                  <a href="/loverboy/single.php"><h3>Michael Lucas</h3></a>
                   <a href="/loverboy/single.php">Read More ></a>
               </div>
             </div>
         </div>   
       <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/wayneshires.jpg" alt="..."/>
+          <a href="/loverboy/single.php"><img src="img/wayneshires.jpg" alt="..."/></a>
        <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love the nightlife...</span></p>
-                  <h3>Wayne Shires</h3>
+                  <a href="/loverboy/single.php"><h3>Wayne Shires</h3></a>
                   <a href="/loverboy/single.php">Read More ></a>
               </div>
             </div>
@@ -58,11 +58,11 @@
     <div class="item active">
       <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/cassandro.jpg" alt="..."/>
+          <a href="/loverboy/single.php"><img src="img/cassandro.jpg" alt="..."/></a>
        <div class="cat-color exclusive"></div>
                   <div class="aj_post_intro">
                   <p><span class="cat">Exclusive</span></p>
-                  <h3>Cassandro</h3>
+                  <a href="/loverboy/single.php"><h3>Cassandro</h3></a>
                   <a href="/loverboy/single.php">Read More ></a>
               </div>
             </div>
@@ -71,11 +71,11 @@
     <div class="item">
       <div class="col-md-3">
        <div class="aj_post">
-       <img src="img/willyoung.jpg" alt="..."/>
+           <a href="/loverboy/single.php"><img src="img/willyoung.jpg" alt="..."/></a>
          <div class="cat-color welove"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love...</span></p>
-                  <h3>Will Young</h3>
+                  <a href="/loverboy/single.php"><h3>Will Young</h3></a>
                   <a href="/loverboy/single.php">Read More ></a>
               </div>
             </div>
@@ -84,11 +84,11 @@
     <div class="item">
  <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/michaellucas.jpg" alt="..."/>
+          <a href="/loverboy/single.php"><img src="img/michaellucas.jpg" alt="..."/></a>
        <div class="cat-color loveis"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">Love is...</span></p>
-                  <h3>Michael Lucas</h3>
+                  <a href="/loverboy/single.php"><h3>Michael Lucas</h3></a>
                   <a href="/loverboy/single.php">Read More ></a>
               </div>
             </div>
@@ -97,17 +97,18 @@
     <div class="item">
  <div class="col-md-3">
       <div class="aj_post">
-      <img src="img/wayneshires.jpg" alt="..."/>
+          <a href="/loverboy/single.php"><img src="img/wayneshires.jpg" alt="..."/></a>
        <div class="cat-color nightlife"></div>
                 <div class="aj_post_intro">
                   <p><span class="cat">We love the nightlife...</span></p>
-                  <h3>Wayne Shires</h3>
+                  <a href="/loverboy/single.php"><h3>Wayne Shires</h3></a>
                   <a href="/loverboy/single.php">Read More ></a>
               </div>
             </div>
         </div>
     </div>
   <!-- Controls -->
+<!--
   <a class="left carousel-control" href="#carousel-footer" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -116,6 +117,7 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+-->
 </div>
           </div><!--end header carousel-->
         <div class="row">
