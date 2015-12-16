@@ -67,3 +67,13 @@ function WidthChange(mq) {
         }
 }
     </script>
+    <script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: false,
+    slidesPerView: 2,
+    centeredSlides: true,
+    spaceBetween: 0,
+  })        
+  </script>

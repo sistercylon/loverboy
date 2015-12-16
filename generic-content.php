@@ -9,6 +9,7 @@
         <title>Loverboy | Generic Content</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/swiper.min.js"></script>
         <script src="https://use.typekit.net/uec5wok.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <link rel="stylesheet" type="text/css" href="css/style.css" />

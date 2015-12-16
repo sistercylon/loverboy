@@ -11,6 +11,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="https://use.typekit.net/uec5wok.js"></script>
         <script src="js/eucookielaw.js"></script>
+        <script src="js/swiper.min.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>

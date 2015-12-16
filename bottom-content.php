@@ -50,12 +50,11 @@
        </div><!--end hidden-sm -->
         </div>
          <!-- CAROUSEL -->
-      
-    <div id="carousel-footer" class="carousel slide visible-md visible-sm visible-xs" data-ride="carousel">
+      <div class="swiper-container slide visible-md visible-sm visible-xs">
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
+   <div class="swiper-wrapper">
+    <div class="swiper-slide" style="width: 232px">
       <div class="col-md-3">
       <div class="aj_post">
           <a href="/loverboy/single.php"><img src="img/cassandro.jpg" alt="..."/></a>
@@ -68,7 +67,7 @@
             </div>
         </div>
       </div>
-    <div class="item">
+    <div class="swiper-slide" style="width: 232px">
       <div class="col-md-3">
        <div class="aj_post">
            <a href="/loverboy/single.php"><img src="img/willyoung.jpg" alt="..."/></a>
@@ -81,7 +80,7 @@
             </div>
         </div>
   </div>
-    <div class="item">
+    <div class="swiper-slide" style="width: 232px">
  <div class="col-md-3">
       <div class="aj_post">
           <a href="/loverboy/single.php"><img src="img/michaellucas.jpg" alt="..."/></a>
@@ -94,7 +93,7 @@
             </div>
         </div>   
     </div>
-    <div class="item">
+    <div class="swiper-slide" style="width: 232px">
  <div class="col-md-3">
       <div class="aj_post">
           <a href="/loverboy/single.php"><img src="img/wayneshires.jpg" alt="..."/></a>
@@ -106,20 +105,10 @@
               </div>
             </div>
         </div>
-    </div>
-  <!-- Controls -->
-<!--
-  <a class="left carousel-control" href="#carousel-footer" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-footer" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
--->
-</div>
+       </div>
+        </div><!-- end swiper wrapper-->
           </div><!--end header carousel-->
+            </div><!-- end swiper container-->
         <div class="row">
        <div class="col-md-8">
         <div class="ad">

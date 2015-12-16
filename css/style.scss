@@ -1,6 +1,5 @@
 @import 'bootstrap';
 
-
 *{
     box-shadow: none !important;
     -webkit-margin-before: none;
@@ -16,10 +15,13 @@ display: block;
 }
 
 h1, h2, h3, h4, h5, h6, p{
-    margin-before: none;
-    -webkit-margin-before: none;
-    -moz-margin-before: none;
-    -o-margin-before: none;
+    margin-before: 0;
+    -webkit-margin-before: 0;
+    -moz-margin-before: 0;
+    -o-margin-before: 0;
+    -webkit-margin-after: 0;
+    -moz-margin-after: 0;
+    -o-margin-after: 0;
 }
 
 input, button{
@@ -379,6 +381,13 @@ nav .navbar-brand{
             line-height: 6px;
             margin-bottom: 8px;
             letter-spacing: -1px;
+            margin-before: none;
+            -webkit-margin-before: none;
+            -moz-margin-before: none;
+            -o-margin-before: none;
+            -webkit-margin-after: none;
+            -moz-margin-after: none;
+            -o-margin-after: none;
         }
         a{
             font-weight: bold;
@@ -420,6 +429,12 @@ nav .navbar-brand{
         font-size: 20px;
         text-transform: uppercase;
         font-weight: bold;
+        -webkit-margin-before: none;
+        -moz-margin-before: none;
+        -o-margin-before: none;
+        -webkit-margin-after: none;
+        -moz-margin-after: none;
+        -o-margin-after: none;
     }
     
 } 
@@ -977,7 +992,13 @@ ol.carousel-indicators{
         width: 262px;
         margin: 0 auto;
         h3{
-            line-height: 28px;   
+            line-height: 28px;
+            -webkit-margin-before: none;
+            -moz-margin-before: none;
+            -o-margin-before: none;
+            -webkit-margin-after: none;
+            -moz-margin-after: none;
+            -o-margin-after: none;
             }
         .thumbnail_container{
             height: 238px;
@@ -1263,6 +1284,12 @@ ol.carousel-indicators{
         h3{
             margin-top: 0;
             margin-bottom: 0;
+            -webkit-margin-before: none;
+            -moz-margin-before: none;
+            -o-margin-before: none;
+            -webkit-margin-after: none;
+            -moz-margin-after: none;
+            -o-margin-after: none;
         }
         p{
             margin-bottom: 0;
@@ -1356,4 +1383,41 @@ ol.carousel-indicators{
 img.alignleft{
     float: left;
     margin: 0 10px 10px 0;
+}
+
+/* swiper styles */
+
+.swiper-container {
+    width: 468px;
+    height: 300px;
+}   
+
+.swiper-slide, .swiper-slide-active{
+    width: 232px;
+}
+
+
+.swiper-wrapper{
+    margin-left: -116px;
+    .cat-color{
+        height: 10px;
+        &.exclusive{
+            background-color: $cat-color-exclusive;
+        }
+        &.welove{
+            background-color: $cat-color-welove;
+        }
+        &.loveis{
+            background-color: $cat-color-loveis;
+        }
+        &.nightlife{
+            background-color: $cat-color-nightlife;
+        }
+        &.exclusive{
+            background-color: $cat-color-exclusive;
+        }
+    }
+    .aj_post_intro{
+        border-bottom: 1px solid #000;
+    }
 }

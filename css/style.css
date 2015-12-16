@@ -5820,10 +5820,13 @@ button.close {
   margin: 0 0 0 -2px; }
 
 h1, h2, h3, h4, h5, h6, p {
-  margin-before: none;
-  -webkit-margin-before: none;
-  -moz-margin-before: none;
-  -o-margin-before: none; }
+  margin-before: 0;
+  -webkit-margin-before: 0;
+  -moz-margin-before: 0;
+  -o-margin-before: 0;
+  -webkit-margin-after: 0;
+  -moz-margin-after: 0;
+  -o-margin-after: 0; }
 
 input, button {
   appearance: none;
@@ -6105,7 +6108,14 @@ nav .navbar-brand {
       margin: 0;
       line-height: 6px;
       margin-bottom: 8px;
-      letter-spacing: -1px; }
+      letter-spacing: -1px;
+      margin-before: none;
+      -webkit-margin-before: none;
+      -moz-margin-before: none;
+      -o-margin-before: none;
+      -webkit-margin-after: none;
+      -moz-margin-after: none;
+      -o-margin-after: none; }
     #main-content .aj_post_intro a {
       font-weight: bold; }
 
@@ -6134,7 +6144,13 @@ nav .navbar-brand {
   #home-bottom-content h3 {
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    -webkit-margin-before: none;
+    -moz-margin-before: none;
+    -o-margin-before: none;
+    -webkit-margin-after: none;
+    -moz-margin-after: none;
+    -o-margin-after: none; }
 
 aside h4 {
   font-size: 18px;
@@ -6544,7 +6560,13 @@ ol.carousel-indicators {
     width: 262px;
     margin: 0 auto; }
     #archive-wrapper #main-content .aj_post h3, #archive-competition-wrapper #main-content .aj_post h3 {
-      line-height: 28px; }
+      line-height: 28px;
+      -webkit-margin-before: none;
+      -moz-margin-before: none;
+      -o-margin-before: none;
+      -webkit-margin-after: none;
+      -moz-margin-after: none;
+      -o-margin-after: none; }
     #archive-wrapper #main-content .aj_post .thumbnail_container, #archive-competition-wrapper #main-content .aj_post .thumbnail_container {
       height: 238px;
       overflow: hidden; }
@@ -6748,7 +6770,13 @@ ol.carousel-indicators {
       border-top: 0; }
     #carousel-footer .aj_post h3 {
       margin-top: 0;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      -webkit-margin-before: none;
+      -moz-margin-before: none;
+      -o-margin-before: none;
+      -webkit-margin-after: none;
+      -moz-margin-after: none;
+      -o-margin-after: none; }
     #carousel-footer .aj_post p {
       margin-bottom: 0; }
     #carousel-footer .aj_post .cat-color {
@@ -6820,5 +6848,30 @@ ol.carousel-indicators {
 img.alignleft {
   float: left;
   margin: 0 10px 10px 0; }
+
+/* swiper styles */
+.swiper-container {
+  width: 468px;
+  height: 300px; }
+
+.swiper-slide, .swiper-slide-active {
+  width: 232px; }
+
+.swiper-wrapper {
+  margin-left: -116px; }
+  .swiper-wrapper .cat-color {
+    height: 10px; }
+    .swiper-wrapper .cat-color.exclusive {
+      background-color: #24a86c; }
+    .swiper-wrapper .cat-color.welove {
+      background-color: #df185e; }
+    .swiper-wrapper .cat-color.loveis {
+      background-color: #fcd037; }
+    .swiper-wrapper .cat-color.nightlife {
+      background-color: #5639d4; }
+    .swiper-wrapper .cat-color.exclusive {
+      background-color: #24a86c; }
+  .swiper-wrapper .aj_post_intro {
+    border-bottom: 1px solid #000; }
 
 /*# sourceMappingURL=style.css.map */
