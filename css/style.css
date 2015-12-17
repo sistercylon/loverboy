@@ -6537,7 +6537,7 @@ ol.carousel-indicators {
   margin-top: 0px; }
   #archive-wrapper #main-content > .cat-color, #archive-competition-wrapper #main-content > .cat-color {
     max-width: 890px;
-    margin: 20px auto 0 auto; }
+    margin: 20px auto; }
   #archive-wrapper #main-content h2, #archive-competition-wrapper #main-content h2 {
     max-height: 20px;
     overflow: hidden;
@@ -6650,63 +6650,70 @@ ol.carousel-indicators {
     line-height: 38px; }
 
 @media (max-width: 960px) {
-  #archive-wrapper #main-content h2, #archive-competition-wrapper #main-content h2 {
-    max-height: 20px;
-    overflow: hidden;
-    padding: 0; }
-  #archive-wrapper #main-content .page-intro, #archive-competition-wrapper #main-content .page-intro {
-    max-height: 60px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    padding: 0 10px; }
-  #archive-wrapper #main-content .col-md-3, #archive-competition-wrapper #main-content .col-md-3 {
-    border: none; }
-  #archive-wrapper #main-content .content, #archive-competition-wrapper #main-content .content {
-    border: none; }
-    #archive-wrapper #main-content .content .col-md-4, #archive-competition-wrapper #main-content .content .col-md-4 {
-      height: auto;
-      clear: both; }
-  #archive-wrapper #main-content .aj_post, #archive-competition-wrapper #main-content .aj_post {
-    width: 100%;
-    margin: 0 auto; }
-    #archive-wrapper #main-content .aj_post .aj_post_intro, #archive-competition-wrapper #main-content .aj_post .aj_post_intro {
-      height: 200px; }
-      #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:link, #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:visited, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:link, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:visited {
-        display: block;
-        width: 100%;
-        margin-left: 0;
-        border: 1px solid #000;
-        padding: 8px 0;
-        text-align: center;
-        font-weight: normal;
-        background-color: transparent; }
-      #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:hover, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:hover {
-        background-color: inherit;
-        color: #fff;
-        border: none;
-        text-decoration: none; }
-      #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:active, #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:focus, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:active, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:focus {
-        background-color: transparent;
-        border: 1px solid #000; }
-    #archive-wrapper #main-content .aj_post h3, #archive-competition-wrapper #main-content .aj_post h3 {
-      line-height: 28px;
-      margin-top: 0;
-      margin-bottom: 0;
-      -webkit-margin-before: 0;
-      -webkit-margin-after: 0; }
-    #archive-wrapper #main-content .aj_post .thumbnail_container, #archive-competition-wrapper #main-content .aj_post .thumbnail_container {
+  .navbar-default .navbar-collapse {
+    height: 320px; }
+
+  #archive-wrapper #main-content, #archive-competition-wrapper #main-content {
+    margin-top: 0; }
+    #archive-wrapper #main-content > .cat-color, #archive-competition-wrapper #main-content > .cat-color {
+      margin: 20px auto; }
+    #archive-wrapper #main-content h2, #archive-competition-wrapper #main-content h2 {
+      max-height: 20px;
+      overflow: hidden;
+      padding: 0; }
+    #archive-wrapper #main-content .page-intro, #archive-competition-wrapper #main-content .page-intro {
+      max-height: 60px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      padding: 0 10px; }
+    #archive-wrapper #main-content .col-md-3, #archive-competition-wrapper #main-content .col-md-3 {
+      border: none; }
+    #archive-wrapper #main-content .content, #archive-competition-wrapper #main-content .content {
+      border: none; }
+      #archive-wrapper #main-content .content .col-md-4, #archive-competition-wrapper #main-content .content .col-md-4 {
+        height: auto;
+        clear: both; }
+    #archive-wrapper #main-content .aj_post, #archive-competition-wrapper #main-content .aj_post {
       width: 100%;
-      height: auto;
-      min-width: 100%;
-      overflow: hidden; }
-      #archive-wrapper #main-content .aj_post .thumbnail_container img, #archive-competition-wrapper #main-content .aj_post .thumbnail_container img {
+      margin: 0 auto; }
+      #archive-wrapper #main-content .aj_post .aj_post_intro, #archive-competition-wrapper #main-content .aj_post .aj_post_intro {
+        height: 200px; }
+        #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:link, #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:visited, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:link, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:visited {
+          display: block;
+          width: 100%;
+          margin-left: 0;
+          border: 1px solid #000;
+          padding: 8px 0;
+          text-align: center;
+          font-weight: normal;
+          background-color: transparent; }
+        #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:hover, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:hover {
+          background-color: inherit;
+          color: #fff;
+          border: none;
+          text-decoration: none; }
+        #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:active, #archive-wrapper #main-content .aj_post .aj_post_intro a.archive_more:focus, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:active, #archive-competition-wrapper #main-content .aj_post .aj_post_intro a.archive_more:focus {
+          background-color: transparent;
+          border: 1px solid #000; }
+      #archive-wrapper #main-content .aj_post h3, #archive-competition-wrapper #main-content .aj_post h3 {
+        line-height: 28px;
+        margin-top: 0;
+        margin-bottom: 0;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0; }
+      #archive-wrapper #main-content .aj_post .thumbnail_container, #archive-competition-wrapper #main-content .aj_post .thumbnail_container {
         width: 100%;
         height: auto;
-        margin-left: 0; }
+        min-width: 100%;
+        overflow: hidden; }
+        #archive-wrapper #main-content .aj_post .thumbnail_container img, #archive-competition-wrapper #main-content .aj_post .thumbnail_container img {
+          width: 100%;
+          height: auto;
+          margin-left: 0; }
 
   /* single post under 960px */
   #single-wrapper #main-content, #competition-single-wrapper #main-content {
-    margin-top: 20px; }
+    margin-top: -4px; }
   #single-wrapper nav.navbar, #competition-single-wrapper nav.navbar {
     max-width: 890px; }
   #single-wrapper .content, #competition-single-wrapper .content {
@@ -6845,19 +6852,24 @@ ol.carousel-indicators {
       -moz-text-decoration-color: #fff;
       -o-text-decoration-color: #fff; }
 
+@media (max-width: 768px) {
+  #archive-wrapper #main-content, #archive-competition-wrapper #main-content {
+    margin-top: -74px; } }
 img.alignleft {
   float: left;
   margin: 0 10px 10px 0; }
 
 /* swiper styles */
 .swiper-container {
-  width: 468px;
   height: 300px; }
 
 .swiper-slide, .swiper-slide-active {
   width: 232px; }
+  .swiper-slide img, .swiper-slide-active img {
+    width: 232px; }
 
 .swiper-wrapper {
+  width: 468px;
   margin-left: -116px; }
   .swiper-wrapper .cat-color {
     height: 10px; }
@@ -6871,7 +6883,13 @@ img.alignleft {
       background-color: #5639d4; }
     .swiper-wrapper .cat-color.exclusive {
       background-color: #24a86c; }
+  .swiper-wrapper .aj_post, .swiper-wrapper .col-md-3 {
+    width: 232px !important; }
   .swiper-wrapper .aj_post_intro {
-    border-bottom: 1px solid #000; }
+    border-bottom: 1px solid #000;
+    width: 232px !important; }
+
+.navbar-header {
+  box-shadow: 0px 0px 3px 0px #000 !important; }
 
 /*# sourceMappingURL=style.css.map */

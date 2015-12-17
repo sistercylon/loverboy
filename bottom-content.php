@@ -49,8 +49,8 @@
         </div>
        </div><!--end hidden-sm -->
         </div>
-         <!-- CAROUSEL -->
-      <div class="swiper-container slide visible-md visible-sm visible-xs">
+         <!-- SWIPER -->
+<div class="swiper-container slide visible-md visible-sm visible-xs">
 
   <!-- Wrapper for slides -->
    <div class="swiper-wrapper">
@@ -107,8 +107,7 @@
         </div>
        </div>
         </div><!-- end swiper wrapper-->
-          </div><!--end header carousel-->
-            </div><!-- end swiper container-->
+          </div><!-- end swiper container-->
         <div class="row">
        <div class="col-md-8">
         <div class="ad">
@@ -141,4 +140,5 @@
             </form>
         </aside>
     </div>
+</div>
 </div>

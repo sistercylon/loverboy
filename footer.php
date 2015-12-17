@@ -74,6 +74,6 @@ function WidthChange(mq) {
     loop: false,
     slidesPerView: 2,
     centeredSlides: true,
-    spaceBetween: 0,
+    spaceBetween: 100,
   })        
   </script>

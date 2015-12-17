@@ -964,7 +964,7 @@ ol.carousel-indicators{
     margin-top: 0px;
     > .cat-color{
         max-width: 890px;
-        margin: 20px auto 0 auto;
+        margin: 20px auto;
     }
     h2{
         max-height: 20px;
@@ -1119,7 +1119,14 @@ ol.carousel-indicators{
 
 
 @media (max-width: $screen-md){
+    .navbar-default .navbar-collapse{
+        height: 320px;
+    }
     #archive-wrapper #main-content, #archive-competition-wrapper #main-content {
+        margin-top: 0;
+        > .cat-color{
+            margin: 20px auto;
+        }
     h2{
         max-height: 20px;
         overflow: hidden;
@@ -1195,7 +1202,7 @@ ol.carousel-indicators{
     /* single post under 960px */
     #single-wrapper, #competition-single-wrapper{
     #main-content{
-    margin-top: 20px;
+    margin-top: -4px;
     }
     nav.navbar{
     max-width: 890px;
@@ -1259,10 +1266,7 @@ ol.carousel-indicators{
 
         
     }
-//    .carousel-inner .active.left { left: -33%; }
-//.carousel-inner .next        { left:  33%; }
-//.carousel-inner .prev        { left: -33%; }
-//.carousel-control.left,.carousel-control.right {background-image:none;}
+
     .aj_post{
         width: 22%;
         float: left;
@@ -1380,6 +1384,12 @@ ol.carousel-indicators{
     }
 }
 
+@media (max-width: $screen-sm){
+    #archive-wrapper #main-content, #archive-competition-wrapper #main-content {
+        margin-top: -74px;
+    }
+}
+
 img.alignleft{
     float: left;
     margin: 0 10px 10px 0;
@@ -1388,16 +1398,20 @@ img.alignleft{
 /* swiper styles */
 
 .swiper-container {
-    width: 468px;
+    
     height: 300px;
 }   
 
 .swiper-slide, .swiper-slide-active{
     width: 232px;
+    img{
+        width: 232px;
+    }
 }
 
 
 .swiper-wrapper{
+    width: 468px;
     margin-left: -116px;
     .cat-color{
         height: 10px;
@@ -1417,7 +1431,12 @@ img.alignleft{
             background-color: $cat-color-exclusive;
         }
     }
+    .aj_post, .col-md-3{
+        width: 232px !important;
+    }
     .aj_post_intro{
         border-bottom: 1px solid #000;
+        width: 232px !important;
     }
 }
+.navbar-header{ box-shadow: 0px 0px 3px 0px #000 !important;}
